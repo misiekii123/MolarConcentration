@@ -1,10 +1,10 @@
 {
   "expo": {
-    "name": "MolarConcentration",
+    "name": "Stężenie Molowe",
     "slug": "MolarConcentration",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./icon.png",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
@@ -21,10 +21,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.misiekii123.MolarConcentration"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "4245d413-508b-4818-99bb-54f4d5dadc44"
+      }
     }
   }
 }
